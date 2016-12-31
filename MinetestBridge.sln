@@ -3,8 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{B1A42885-4B22-4913-8CCF-7794B89149D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{59AD2BE4-F7F7-4B95-A3C7-7D2CC44BF5D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{E55CBF8A-73AD-49DB-A997-85C1290FA288}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BridgeWeb", "BridgeWeb\BridgeWeb.xproj", "{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BridgeAPI", "BridgeAPI\BridgeAPI.xproj", "{7D9712E3-0E3C-4A10-8BEA-F94D566471FD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9712E3-0E3C-4A10-8BEA-F94D566471FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9712E3-0E3C-4A10-8BEA-F94D566471FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9712E3-0E3C-4A10-8BEA-F94D566471FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9712E3-0E3C-4A10-8BEA-F94D566471FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7174E4EA-7C28-4A1E-9259-3E9A4E54CD91} = {59AD2BE4-F7F7-4B95-A3C7-7D2CC44BF5D6}
+		{7D9712E3-0E3C-4A10-8BEA-F94D566471FD} = {59AD2BE4-F7F7-4B95-A3C7-7D2CC44BF5D6}
 	EndGlobalSection
 EndGlobal
